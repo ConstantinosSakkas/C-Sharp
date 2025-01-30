@@ -44,7 +44,7 @@ namespace Food_Final
         {
             try
             {
-  string source = "Data Source = tolmount.abertay.ac.uk; Initial Catalog = mssql2200984; User ID = mssql2200984; Password = s4wTa4RnBR";
+
    string user = maskedTextBox1.Text;
     string password = textBox1.Text;
 
