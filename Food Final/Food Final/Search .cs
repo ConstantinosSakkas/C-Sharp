@@ -32,7 +32,7 @@ namespace Food_Final
 
         private void InitializeSqlConnection()
         {
-   string connString = "Data Source = tolmount.abertay.ac.uk; Initial Catalog = mssql2200984; User ID = mssql2200984; Password = s4wTa4RnBR";
+   
     SqlConnection = new SqlConnection(connString);
      Dietary();
      Allergies();
